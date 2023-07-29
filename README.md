@@ -9,7 +9,7 @@
 3. Proceed to Users and add a user. Fill in the user details.
 4. Add `AmazonPollyFullAccess` as **Permission Policy** and create your user group.
 5. Continue clicking next until you have created the IAM user.
-6. Since I can't find programmatic access for user there. Type this command to generate API keys:
+6. Since I can't find programmatic access for user there. Open AWS CloudShell and type this command to generate API keys:
 
 ```
 aws iam create-access-key --user-name YourUser
