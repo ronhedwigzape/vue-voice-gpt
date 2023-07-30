@@ -49,6 +49,12 @@ aws iam attach-group-policy --group-name MyIamGroup --policy-arn arn:aws:iam::aw
 npm install
 ```
 
+### To run backend server  
+
+```sh
+npm run watch
+```
+
 ### Compile and Hot-Reload for Development
 
 ```sh
